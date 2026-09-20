@@ -1,0 +1,7 @@
+# MiniMind 手搓版依赖（核心路径只需要这三个）
+
+# torch CUDA 版不能用普通源装, 需指定官方源:
+# pip install torch==2.5.1+cu121 --index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1+cu121
+transformers==4.57.6
+datasets==3.6.0
